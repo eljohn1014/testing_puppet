@@ -6,4 +6,3 @@
 #
 class testing_puppet {
 
-}
