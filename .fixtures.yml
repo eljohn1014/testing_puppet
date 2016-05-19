@@ -1,0 +1,10 @@
+---
+fixtures:
+  # specify which modules you will need to grab from the forge in order to run the tests
+  forge_modules:
+    apache: "puppetlabs/apache"
+    stdlib: "puppetlabs/stdlib"
+    concat: "puppetlabs/concat"
+  #specify any local sylinks to include, such as the base module name
+  symlinks:
+      'testing_puppet': '#{source_dir}'
